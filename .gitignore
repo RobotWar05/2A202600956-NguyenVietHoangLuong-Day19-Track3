@@ -1,0 +1,36 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dataset should stay outside this submission repo.
+dataset/
+
+# Heavy reproducible intermediate artifacts.
+outputs/chunks.jsonl
+outputs/triples.jsonl
+outputs/triples_clean.jsonl
+outputs/graph.graphml
+
+# Keep final submission artifacts tracked.
+!outputs/
+!outputs/graph.png
+!outputs/benchmark_results.csv
+!outputs/cost_report.md
+!outputs/report_day19.md
+
+# Local packaged submission copies.
+_submission_ready/
+*.zip
